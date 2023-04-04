@@ -1,0 +1,97 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .mobile-menu-open {
+    display: none;
+  }
+  .header-div {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .address-list {
+    gap: 40px;
+  }
+
+  /* ------Main section---  */
+  .overlay {
+    max-width: 1440px;
+    min-height: 600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desktop/people-office1.jpg),
+      url(../images/desktop/people-office1.webp);
+  }
+  .title-hero {
+    width: 496px;
+    line-height: 1.07;
+    margin: 0 auto 48px auto;
+  }
+  /* Features section- */
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .features-item {
+    height: 112px;
+  }
+  .features-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .features-list-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  /* What are we doing */
+
+  /*---------------------------- Our team---------------------------- */
+
+  /* ---------------------CUSTOMERS------------------------------ */
+
+  .social-customers-list-item {
+    width: calc((100%-120px) / 6);
+    height: 88px;
+  }
+  /*--------------------------- FOOTER---------------------------------- */
+
+  .container-right {
+    margin-left: auto;
+  }
+  .footer-containers {
+    display: flex;
+    gap: 120px;
+  }
+  .container-wrap {
+    display: flex;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desktop/people-office1@2x.jpg)
+        url(../images/desktop/people-office1@2x.webp);
+  }
+}
