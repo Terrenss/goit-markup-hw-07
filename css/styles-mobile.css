@@ -262,6 +262,8 @@
     padding-top: 72px;
   }
 
+  .social-team-list {
+  }
   .team-list {
     flex-wrap: wrap;
     gap: 72px;
