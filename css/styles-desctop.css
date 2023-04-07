@@ -68,6 +68,18 @@
     width: calc((100%-120px) / 6);
     height: 88px;
   }
+
+  .social-customers-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-customers-link {
+    width: 168px;
+    height: 88px;
+  }
+
   /*--------------------------- FOOTER---------------------------------- */
 
   .container-right {
