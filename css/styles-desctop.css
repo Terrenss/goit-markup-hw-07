@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1150px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -44,7 +44,7 @@
     padding-bottom: 120px;
   }
   .features-item {
-    height: 112px;
+    width: calc((100%-3 * 24px) / 4);
   }
   .features-list-icon {
     display: flex;
